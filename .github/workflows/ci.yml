@@ -39,11 +39,8 @@ jobs:
         with:
           image-ref: cicd-automation-platform:${{ github.sha }}
           format: table
-          exit-code: '0'
+          exit-code: '1'
           severity: CRITICAL,HIGH
-          vuln-type: os,library
-          scanners: vuln
-
-
+          
 
 
