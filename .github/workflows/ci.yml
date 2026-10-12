@@ -35,7 +35,7 @@ jobs:
 
         
       - name: Scan Docker image with Trivy
-        uses: aquasecurity/trivy-action@0.28.0
+        uses: aquasecurity/trivy-action@master
         with:
           image-ref: cicd-automation-platform:${{ github.sha }}
           format: table
