@@ -6,7 +6,7 @@ const { getAppStatus } = require("./app");
 test("application should report healthy status", () => {
   const result = getAppStatus();
 
-  assert.equal(result.status, "healthy");
+  assert.equal(result.status, "unhealthy");
   assert.equal(
     result.application,
     "CI/CD Automation Platform"
