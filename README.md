@@ -90,3 +90,17 @@ The application and Kubernetes deployment run locally using Minikube. The monito
 - Improve security scanning and vulnerability remediation.
 - Add deployment rollback automation.
 - Add notification delivery testing and further application metrics.
+
+## Project Screenshots
+
+### 1. GitHub Actions CI Pipeline
+![GitHub Actions CI Pipeline](screenshots/github-actions.png)
+
+### 2. Kubernetes Deployment
+![Kubernetes Pods Running](screenshots/kubernetes-pods.png)
+
+### 3. Grafana Monitoring Dashboard
+![Grafana CPU and Memory Monitoring](screenshots/grafana-dashboard.png)
+
+### 4. SonarQube Code Analysis
+![SonarQube Analysis Dashboard](screenshots/sonarqube.png)
