@@ -7,8 +7,5 @@ test("application should report healthy status", () => {
   const result = getAppStatus();
 
   assert.equal(result.status, "healthy");
-  assert.equal(
-    result.application,
-    "CI/CD Automation Platform"
-  );
+  assert.equal(result.application, "CI/CD Automation Platform");
 });
