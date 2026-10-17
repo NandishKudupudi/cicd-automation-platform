@@ -104,3 +104,8 @@ The application and Kubernetes deployment run locally using Minikube. The monito
 
 ### 4. SonarQube Code Analysis
 ![SonarQube Analysis Dashboard](screenshots/sonarqube.png)
+
+
+## Architecture Diagram
+
+![CI/CD Automation Platform Architecture](screenshots/architecture.png)
